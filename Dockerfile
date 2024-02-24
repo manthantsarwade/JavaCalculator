@@ -8,7 +8,7 @@ WORKDIR /home/ojdk/app
 
 COPY /JavaFiles/*.java ./
 
-COPY JAR File/TheodoraAna.jar ./ 
+COPY /JAR File/TheodoraAna.jar ./ 
 
 USER ojdk
 
