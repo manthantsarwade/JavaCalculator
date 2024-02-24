@@ -6,7 +6,7 @@ RUN mkdir -p /home/ojdk/app/ && chown -R ojdk:ojdk /home/ojdk/app
 
 WORKDIR /home/ojdk/app
 
-COPY JavaCalculator/JavaFiles/*.java ./
+COPY /JavaFiles/*.java ./
 
 COPY JAR File/TheodoraAna.jar ./ 
 
